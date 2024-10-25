@@ -1,38 +1,194 @@
-.App {
+:root {
+  /* --black: hsl(0, 0%, 0%);
+  --vdarkgray: hsl(255, 3%, 24%);
+  --darkgray: hsl(255, 2%, 35%);
+  --mediumgray: hsl(255, 2%, 47%);
+  --lightgray: hsl(260, 1%, 59%);
+  --vlightgray: hsl(280, 2%, 71%); */
+
+  /* original colors below */
+  --primary-orange: hsl(25, 97%, 53%);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-lightgray: hsl(217, 12%, 63%);
+  --neutral-darkblue: hsl(213, 19%, 18%);
+  --neutral-vdarkblue: hsl(216, 12%, 8%);
+}
+
+* {
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  color: var(--primary-orange);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  aspect-ratio: 0.95;
+  width: 27vw;
+  min-width: 360px;
+  background-color: var(--neutral-vdarkblue);
+  border-radius: 7%;
+}
+
+.star-wrapper,
+.rating {
+  background-color: var(--neutral-darkblue);
+}
+
+.star-wrapper,
+.card-title,
+.card-text {
+  margin-left: 1.5rem;
+}
+
+.card-text,
+.rating-buttons,
+.submit {
+  width: 90%;
+}
+
+.star-wrapper {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 95%;
+  margin: 2rem auto;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--neutral-white);
+  margin-bottom: -1.3rem;
+}
+
+.card-text {
+  color: var(--neutral-lightgray);
+  line-height: 1.5rem;
+  text-align: left;
+  margin-bottom: -1rem;
+}
+
+.rating-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.rating {
+  color: var(--neutral-lightgray);
+  font-weight: 700;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  transition: all ease-in-out 0.2s;
+}
+
+.rating:hover {
+  cursor: pointer;
+  background-color: var(--primary-orange);
+  color: var(--neutral-white);
+}
+
+.submit {
+  color: var(--neutral-darkblue);
+  background-color: var(--primary-orange);
+  border-radius: 50px;
+  margin: 0 auto;
+  font-weight: 700;
+  padding: 0.8rem 0;
+  letter-spacing: 0.1rem;
+  border: none;
+  transition: all ease-in-out 0.2s;
+}
+
+.submit:hover {
+  cursor: pointer;
+  background-color: var(--neutral-white);
+}
+
+.clicked {
+  background-color: var(--neutral-white);
+  color: var(--neutral-darkblue);
+}
+
+/* ----------------------THANK YOU COMPONENT--------------------------- */
+
+.thank-you {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem auto;
+}
+
+.thank-you-text {
+  line-height: 1.5rem;
+  margin: 0 0.5rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.selection-wrapper {
+  background-color: var(--neutral-darkblue);
+  width: 50%;
+  min-width: 12rem;
+  margin: auto;
+  border-radius: 50px;
+  padding: 0.5rem 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.selection-wrapper p {
+  color: var(--primary-orange);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.thank-you-text h1 {
+  font-size: 2rem;
+  color: var(--neutral-white);
 }
 
-.App-link {
-  color: #61dafb;
+.thank-you-text p {
+  margin: 1rem 0.5rem 0;
+  color: var(--neutral-lightgray);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.attribution {
+  text-align: center;
+  color: var(--neutral-white);
+  margin-bottom: 0.5rem;
 }
