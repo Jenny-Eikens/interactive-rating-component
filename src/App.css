@@ -195,6 +195,6 @@ a {
 
 @media (max-width: 600px) {
   .card {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 }
