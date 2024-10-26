@@ -192,3 +192,9 @@ a {
   color: var(--neutral-white);
   margin-bottom: 0.5rem;
 }
+
+@media (max-width: 600px) {
+  .card {
+    margin-top: 1rem;
+  }
+}
