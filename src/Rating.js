@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Rating({ activeButton, onRatingSelect }) {
   function handleClick(number) {
     onRatingSelect(number);

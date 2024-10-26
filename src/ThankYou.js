@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function ThankYou({ selectedRating }) {
   return (
     <div className="thank-you">
@@ -101,7 +103,7 @@ export default function ThankYou({ selectedRating }) {
           We appreciate you taking the time to give a rating. If you ever need
           more support, don't hesitate to get in touch!
         </p>
-      </div> 
+      </div>
     </div>
   );
 }
