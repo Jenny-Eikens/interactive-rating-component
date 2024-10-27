@@ -26,7 +26,7 @@ export default function App() {
     <main>
       <CustomCard />
     </main>
-      <div className="attribution">
+      <footer className="attribution">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
           Frontend Mentor
@@ -36,7 +36,7 @@ export default function App() {
           Jennifer Eikens
         </a>
         .
-      </div>
+      </footer>
     </>
   );
 
@@ -63,8 +63,8 @@ export default function App() {
               </div>
               <h1 className="card-title">How did we do?</h1>
               <div className="card-text">
-                Please let us know how we did with your support request. All
-                feedback is appreciated to help us improve our offering!
+                <p>Please let us know how we did with your support request. All
+                feedback is appreciated to help us improve our offering!</p>
               </div>
               <Rating
                 activeButton={activeButton}
