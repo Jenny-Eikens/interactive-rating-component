@@ -26,15 +26,20 @@ export default function App() {
       <main>
         <CustomCard />
         <footer className="attribution">
-          Challenge by{" "}
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-            Frontend Mentor
-          </a>
-          . Coded by{" "}
-          <a href="https://github.com/Jenny-Eikens" target="_blank">
-            Jennifer Eikens
-          </a>
-          .
+          <p>
+            Challenge by{" "}
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a href="https://github.com/Jenny-Eikens" target="_blank">
+              Jennifer Eikens
+            </a>
+            .
+          </p>
         </footer>
       </main>
     </>
