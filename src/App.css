@@ -42,6 +42,11 @@ a {
   color: var(--primary-orange);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -187,10 +192,11 @@ a {
   color: var(--neutral-lightgray);
 }
 
-.attribution {
+footer {
+  position: absolute;
+  bottom: 0.5rem;
   text-align: center;
   color: var(--neutral-white);
-  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 600px) {
