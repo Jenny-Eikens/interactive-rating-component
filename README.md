@@ -84,6 +84,6 @@ This was my first project built with React. I really enjoyed working with the co
 
 ## Author
 
-- Website - [Jennifer Eikens](https://jenny-eikens.github.io/portfolio-page/#projects)
+- Website - [Jennifer Eikens](https://jennifereikens.com)
 - Frontend Mentor - [@Jenny-Eikens](https://www.frontendmentor.io/profile/Jenny-Eikens)
 - GitHub - [@Jenny-Eikens](https://github.com/Jenny-Eikens)
