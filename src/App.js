@@ -23,18 +23,25 @@ export default function App() {
 
   return (
     <>
-      <CustomCard />
-      <div className="attribution">
-        Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        . Coded by{" "}
-        <a href="https://github.com/Jenny-Eikens" target="_blank">
-          Jennifer Eikens
-        </a>
-        .
-      </div>
+      <main>
+        <CustomCard />
+        <footer className="attribution">
+          <p>
+            Challenge by{" "}
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+            >
+              Frontend Mentor
+            </a>
+            . Coded by{" "}
+            <a href="https://github.com/Jenny-Eikens" target="_blank">
+              Jennifer Eikens
+            </a>
+            .
+          </p>
+        </footer>
+      </main>
     </>
   );
 
@@ -61,8 +68,10 @@ export default function App() {
               </div>
               <h1 className="card-title">How did we do?</h1>
               <div className="card-text">
-                Please let us know how we did with your support request. All
-                feedback is appreciated to help us improve our offering!
+                <p>
+                  Please let us know how we did with your support request. All
+                  feedback is appreciated to help us improve our offering!
+                </p>
               </div>
               <Rating
                 activeButton={activeButton}

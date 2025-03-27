@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repository](https://github.com/Jenny-Eikens/interactive-rating-component)
+- Live Site URL: [Live Site](https://jenny-eikens.github.io/interactive-rating-component/)
 
 ## My process
 
